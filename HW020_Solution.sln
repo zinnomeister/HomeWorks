@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW020", "HW020\HW020.csproj", "{CDA4768A-55D7-467A-A130-B4282E7B0F66}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOHW-odd_even", "SOHW-odd_even\SOHW-odd_even.csproj", "{9EB5C4AF-41EA-4EA8-B953-BD14CD6AF910}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDA4768A-55D7-467A-A130-B4282E7B0F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA4768A-55D7-467A-A130-B4282E7B0F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA4768A-55D7-467A-A130-B4282E7B0F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA4768A-55D7-467A-A130-B4282E7B0F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EB5C4AF-41EA-4EA8-B953-BD14CD6AF910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB5C4AF-41EA-4EA8-B953-BD14CD6AF910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB5C4AF-41EA-4EA8-B953-BD14CD6AF910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB5C4AF-41EA-4EA8-B953-BD14CD6AF910}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61082C8B-CC7D-48DC-8615-823571C17E97}
+	EndGlobalSection
+EndGlobal
