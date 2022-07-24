@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW020", "HW020\HW020.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOHW-odd_even", "SOHW-odd_even\SOHW-odd_even.csproj", "{9EB5C4AF-41EA-4EA8-B953-BD14CD6AF910}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ternary operators", "Ternary operators\Ternary operators.csproj", "{5D006100-3DD1-4320-A69A-C32BDC258134}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9EB5C4AF-41EA-4EA8-B953-BD14CD6AF910}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EB5C4AF-41EA-4EA8-B953-BD14CD6AF910}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EB5C4AF-41EA-4EA8-B953-BD14CD6AF910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D006100-3DD1-4320-A69A-C32BDC258134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D006100-3DD1-4320-A69A-C32BDC258134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D006100-3DD1-4320-A69A-C32BDC258134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D006100-3DD1-4320-A69A-C32BDC258134}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

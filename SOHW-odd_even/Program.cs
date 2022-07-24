@@ -13,7 +13,7 @@ namespace HW020
 
 
             Console.WriteLine("Input starting value");
-            double currentValue = double.Parse(Console.ReadLine());
+            double currentValue = Math.Round(double.Parse(Console.ReadLine()), 1);
             Console.WriteLine("Input ending value");
             double limit = double.Parse(Console.ReadLine());
 
@@ -21,23 +21,30 @@ namespace HW020
             Console.WriteLine("Input your choice");
             Console.WriteLine("If you want to see odd numbers - press '1'");
             Console.WriteLine("If you want to see even numbers - press '2'");
+            
 
             double choice = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Input the kratnost");
+            double kratnost = double.Parse(Console.ReadLine());//0.2
+
+            int checkValue = (int)Math.Ceiling(kratnost);
+
             switch (choice)
             {
                 case 1:
 
                     while (currentValue <= limit)
                     {
-                        if (currentValue % 2 != 0)
+                        if (currentValue * 10 % checkValue != 0)
                         {
                             Console.WriteLine(currentValue + ";");
-                            currentValue++;
+                            currentValue+= kratnost;
                             //evenSum += currentValue;
                         }
                         else
                         {
-                            currentValue++;
+                            currentValue += kratnost;
 
                         }
                         //currentValue++;
@@ -48,15 +55,17 @@ namespace HW020
 
                     while (currentValue <= limit)
                     {
-                        if (currentValue % 2 == 0)
+                        currentValue = Math.Round(currentValue, 1);
+                        if (currentValue * 10 % checkValue == 0)
                         {
                             Console.WriteLine(currentValue + ";");
-                            currentValue++;
+                            currentValue+=kratnost;
+
                             //evenSum += currentValue;
                         }
                         else
                         {
-                            currentValue++;
+                            currentValue += kratnost;
 
                         }
                         //currentValue++;
