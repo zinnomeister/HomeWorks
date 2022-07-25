@@ -17,19 +17,21 @@ namespace Array
                 Array[i] = int.Parse(Console.ReadLine());
             }
 
-            Console.WriteLine("\nOutput of Array:");
+            Console.WriteLine("\nOutput of Array - Summ of odd:");
+
+            int SummOdd = 0;
 
             for (int i = 0; i < Array.Length; i++)
             {
-                Console.WriteLine(Array[i]);
+                if (Array[i] % 2 == 0)
+                {
+                    SummOdd += Array[i];
+                }
+                
             }
+            Console.Write("Summ of odd: \t");
+            Console.WriteLine(SummOdd);
 
-            Console.WriteLine("\nOutput of Array in reverse mode:");
-
-            for (int i = Array.Length - 1; i >= 0; i--)
-            {
-                Console.WriteLine(Array[i]);
-            }
 
             Console.ReadLine();
 
