@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array", "Array\Array.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW-InputArrayFromKbrd", "HW-InputArrayFromKbrd\HW-InputArrayFromKbrd.csproj", "{A50F22A8-E42B-4D85-8438-269F94374D28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW-OutputSummOfOdd", "HW-OutputSummOfOdd\HW-OutputSummOfOdd.csproj", "{D2218F6A-3101-42B5-A281-68BC0CC91E15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW-OutputSummOfOdd", "HW-OutputSummOfOdd\HW-OutputSummOfOdd.csproj", "{D2218F6A-3101-42B5-A281-68BC0CC91E15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW-MinMaxOfArray", "HW-MinimalOfArray\HW-MinMaxOfArray.csproj", "{D5D43DF0-08E7-4243-ACE4-D61A3B421DA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW-MinMaxOfArray", "HW-MinimalOfArray\HW-MinMaxOfArray.csproj", "{D5D43DF0-08E7-4243-ACE4-D61A3B421DA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexes", "ConsoleApp1\Indexes.csproj", "{C41D9DE6-62C6-4234-9F79-FAC1A6010661}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{D5D43DF0-08E7-4243-ACE4-D61A3B421DA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5D43DF0-08E7-4243-ACE4-D61A3B421DA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5D43DF0-08E7-4243-ACE4-D61A3B421DA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C41D9DE6-62C6-4234-9F79-FAC1A6010661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41D9DE6-62C6-4234-9F79-FAC1A6010661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41D9DE6-62C6-4234-9F79-FAC1A6010661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41D9DE6-62C6-4234-9F79-FAC1A6010661}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

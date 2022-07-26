@@ -52,7 +52,7 @@ namespace Array
             Console.Write("Summ of evens:\t");                      //Повторить!!!
             Console.WriteLine(Array.Where(i => i % 2 == 0).Sum());  //Повторить!!!
             Console.Write("\nSumm of odds:\t");                     //Повторить!!!
-            Console.WriteLine(Array.Where(i => i %2 != 0).Sum());   //Повторить!!!
+            Console.WriteLine(Array.Where(i => i % 2 != 0).Sum());   //Повторить!!!
 
 
             Console.ReadLine();
