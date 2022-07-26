@@ -1,4 +1,5 @@
 ﻿using System;
+//using System.Linq; ???
 
 namespace Array
 {
@@ -43,6 +44,15 @@ namespace Array
             }
             Console.Write("Maximal value of Array: \t");
             Console.WriteLine(maxValue);
+            Console.Write("\nMinimal Value by short code:\t");
+            Console.WriteLine(Array.Min());
+            Console.Write("\nMaximal Value by short code:\t");
+            Console.WriteLine(Array.Max());
+
+            Console.Write("Summ of evens:\t");                      //Повторить!!!
+            Console.WriteLine(Array.Where(i => i % 2 == 0).Sum());  //Повторить!!!
+            Console.Write("\nSumm of odds:\t");                     //Повторить!!!
+            Console.WriteLine(Array.Where(i => i %2 != 0).Sum());   //Повторить!!!
 
 
             Console.ReadLine();
