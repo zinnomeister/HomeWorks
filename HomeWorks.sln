@@ -19,11 +19,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW-MinMaxOfArray", "HW-Mini
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indexes", "Indexes\Indexes.csproj", "{C41D9DE6-62C6-4234-9F79-FAC1A6010661}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tasks", "Tasks", "{C80B4825-044E-4E0A-9856-48E3EC0F32E8}"
-	ProjectSection(SolutionItems) = preProject
-		Arrays.txt = Arrays.txt
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
