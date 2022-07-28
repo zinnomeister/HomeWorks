@@ -17,7 +17,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW-OutputSummOfOdd", "HW-Ou
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW-MinMaxOfArray", "HW-MinimalOfArray\HW-MinMaxOfArray.csproj", "{D5D43DF0-08E7-4243-ACE4-D61A3B421DA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexes", "Indexes\Indexes.csproj", "{C41D9DE6-62C6-4234-9F79-FAC1A6010661}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indexes", "Indexes\Indexes.csproj", "{C41D9DE6-62C6-4234-9F79-FAC1A6010661}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Задания", "Задания", "{AEEEF106-786D-41EB-95E3-E747045B499F}"
+	ProjectSection(SolutionItems) = preProject
+		По массивам.txt = По массивам.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
