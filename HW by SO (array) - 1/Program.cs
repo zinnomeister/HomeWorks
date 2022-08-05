@@ -23,6 +23,8 @@ namespace CharArray
                 Console.WriteLine(currentChar);
             }
            
+            Console.WriteLine("Press any key for go to the next task");
+           
 
             Console.ReadKey();
         }
