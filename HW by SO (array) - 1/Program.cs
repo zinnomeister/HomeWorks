@@ -2,31 +2,26 @@
 
 using System.Linq;// ???
 
-namespace CharArray
+namespace Array
 {
     class Program
 
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Input words:\n");
-            string Char = Console.ReadLine();
-            int symbolsCount = Char.Length;
-            char[] Array = new char[symbolsCount];
-            for (int i = 0; i < symbolsCount; i++)
+            Console.Write("Input sentence:\t");
+            string str = Console.ReadLine();
+            foreach (var item in str)
             {
-                Array[i] = Char[i];
+                Console.WriteLine($"{item}");
             }
-            Console.WriteLine("\nList of chars:\n");
-            foreach (char currentChar in Array)
-            {
-                Console.WriteLine(currentChar);
-            }
-           
-            Console.WriteLine("Press any key for go to the next task");
-           
+            //Console.ReadLine();
 
-            Console.ReadKey();
+            Console.Write("Input symbols:\t");
+            string str2 = Console.ReadLine();
+            Console.WriteLine(str2);
+
+
         }
     }
 }

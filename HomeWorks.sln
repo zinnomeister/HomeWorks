@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW-MinMaxOfArray", "HW-Mini
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indexes", "Indexes\Indexes.csproj", "{C41D9DE6-62C6-4234-9F79-FAC1A6010661}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW by SO (array) - 1", "HW by SO (array)\HW by SO (array) - 1.csproj", "{BCB95AC4-E4AF-48D5-837E-DF286C7B54F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW by SO (array) - 1", "HW by SO (array) - 1\HW by SO (array) - 1.csproj", "{BCB95AC4-E4AF-48D5-837E-DF286C7B54F2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW by SO (array) - 2", "HW by SO (array) - 2\HW by SO (array) - 2.csproj", "{A7DC8FDC-538B-4306-BF2F-C2DF72AA16D8}"
 EndProject
