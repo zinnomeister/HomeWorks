@@ -41,7 +41,7 @@ namespace Array
 
             //int[] myArray7 = Enumerable.Repeat(5, 3).ToArray();//3 of "5"
             
-            int[] myArray8= Enumerable.Range(1, 15).ToArray();
+            int[] myArray8= Enumerable.Range(100, 234).ToArray();
             for (int i = 0; i < myArray8.Length; i++)
             {
                 Console.WriteLine(myArray8[i]);
