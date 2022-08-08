@@ -21,9 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indexes", "Indexes\Indexes.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW by SO (array) - 1", "HW by SO (array) - 1\HW by SO (array) - 1.csproj", "{BCB95AC4-E4AF-48D5-837E-DF286C7B54F2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW by SO (array) - 2", "HW by SO (array) - 2\HW by SO (array) - 2.csproj", "{A7DC8FDC-538B-4306-BF2F-C2DF72AA16D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW by SO (trimString) - 2", "HW by SO (array) - 2\HW by SO (trimString) - 2.csproj", "{A7DC8FDC-538B-4306-BF2F-C2DF72AA16D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Draft", "Draft\Draft.csproj", "{DD1D3D88-AD59-4DED-B6E0-52BE9E193B96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Draft", "Draft\Draft.csproj", "{DD1D3D88-AD59-4DED-B6E0-52BE9E193B96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
