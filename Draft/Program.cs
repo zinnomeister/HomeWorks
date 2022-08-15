@@ -23,7 +23,9 @@ namespace Draft
                 codeArrayWithoutFirst[i] = codeArray[i+1];
                 Console.WriteLine(codeArrayWithoutFirst[i]);
             }
-            
+
+           // while (str.Contains("  ")) { str = str.Replace("  ", " "); }
+
         }
     }
 }

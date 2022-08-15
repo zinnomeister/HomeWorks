@@ -2,28 +2,47 @@
 
 using System.Linq;// ???
 
-namespace Array
+namespace CharArray
 {
     class Program
 
     {
         static void Main(string[] args)
         {
-            Console.Write("Input sentence:\t");
-            string str = Console.ReadLine();
+            TaskOne();
+            Console.Clear();
+            //TaskTwo();
+            //Console.Clear();
+            //TaskThree();
+            //Console.Clear();
 
-            Console.WriteLine(str);
-            foreach (var item in str)
+            Console.ReadLine();
+        }
+        static void TaskOne()
+        {
+            string startSentence = "I`m doing my   homework Right now.Please, Don't    disturb me!!! 12345 ";
+            while (startSentence.Contains("  "))
             {
-                Console.WriteLine($"{item}");
+                startSentence = startSentence.Replace("  ", " ");
             }
-            //Console.ReadLine();
+            
+            Console.WriteLine(startSentence);
 
-            Console.Write("Input symbols:\t");
-            string str2 = Console.ReadLine();
-            Console.WriteLine(str2);
+            char[] charSentence = startSentence.ToCharArray();
+
+            char[] charWithoutNumbers = Array.FindAll(charSentence, (n => !Char.IsDigit(n)));
+
+            Console.WriteLine(charWithoutNumbers);
+
+            
+            Console.ReadLine();
 
 
         }
+
+        //Console.ReadLine();
     }
 }
+//static void TaskTwo()
+//static void TaskThree()
+
