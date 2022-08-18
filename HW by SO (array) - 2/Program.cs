@@ -64,7 +64,6 @@ namespace CharArray
         static void TaskThree()
         {
             foreach (string line in File.ReadAllLines(@"C:\Users\zinno\OneDrive\Разработка\HomeWorks\Task3-HW2.txt"))
-
                 Console.WriteLine(line);
 
             Console.ReadLine();

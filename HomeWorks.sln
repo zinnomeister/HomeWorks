@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW by SO (trimString) - 2",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Draft", "Draft\Draft.csproj", "{DD1D3D88-AD59-4DED-B6E0-52BE9E193B96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Two-dim arrays", "Two-dim arrays\Two-dim arrays.csproj", "{8F9EA71E-24CC-4FAF-8177-ADDC7F0A7AD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{DD1D3D88-AD59-4DED-B6E0-52BE9E193B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD1D3D88-AD59-4DED-B6E0-52BE9E193B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD1D3D88-AD59-4DED-B6E0-52BE9E193B96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F9EA71E-24CC-4FAF-8177-ADDC7F0A7AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F9EA71E-24CC-4FAF-8177-ADDC7F0A7AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F9EA71E-24CC-4FAF-8177-ADDC7F0A7AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F9EA71E-24CC-4FAF-8177-ADDC7F0A7AD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
