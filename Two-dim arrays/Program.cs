@@ -59,7 +59,6 @@ namespace TwoDimArray
 
             Console.ReadLine();
         }
-
         static void PartTwo()
         {
             int[,] ArrayRandom = new int[10, 6];
