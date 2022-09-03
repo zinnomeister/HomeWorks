@@ -12,9 +12,6 @@ namespace ThreeDimArray
             Console.Clear();
             RandomDimRandomArray();
         }
-
-
-
         static void HardInputThreeDimArray()
         {
 
@@ -74,7 +71,7 @@ namespace ThreeDimArray
                 {
                     for (int k = 0; k < randomThreeDimArray.GetLength(2); k++)
                     {
-                        Console.Write(randomThreeDimArray[i,j,k] + "\t");
+                        Console.Write(randomThreeDimArray[i, j, k] + "\t");
                     }
                     Console.WriteLine();
                 }
@@ -83,16 +80,16 @@ namespace ThreeDimArray
             Console.ReadLine();
         }
         static void RandomDimRandomArray()
-        { 
-        Random random = new Random();
+        {
+            Random random = new Random();
 
-            int[][][] randomDimRandomArray = new int[random.Next(3,6)][][];
+            int[][][] randomDimRandomArray = new int[random.Next(3, 6)][][];
             for (int i = 0; i < randomDimRandomArray.Length; i++)
             {
-                randomDimRandomArray[i] = new int[random.Next(2,5)][];
+                randomDimRandomArray[i] = new int[random.Next(2, 5)][];
                 for (int j = 0; j < randomDimRandomArray[i].Length; j++)
                 {
-                    randomDimRandomArray[i][j] = new int[random.Next(3,5)];
+                    randomDimRandomArray[i][j] = new int[random.Next(3, 5)];
                     for (int k = 0; k < randomDimRandomArray[i][j].Length; k++)
                     {
                         randomDimRandomArray[i][j][k] = random.Next(99);
@@ -102,7 +99,7 @@ namespace ThreeDimArray
 
             for (int i = 0; i < randomDimRandomArray.Length; i++)
             {
-                Console.WriteLine("Page # " + (i+1) + "\n");
+                Console.WriteLine("Page # " + (i + 1) + "\n");
                 for (int j = 0; j < randomDimRandomArray[i].Length; j++)
                 {
                     for (int k = 0; k < randomDimRandomArray[i][j].Length; k++)
