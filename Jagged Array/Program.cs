@@ -31,6 +31,5 @@ namespace JuggedArray
             }
             Console.ReadLine();
         }
-
     }
 }
